@@ -58,7 +58,7 @@ public class practica1usuarios extends practica1libros { //subclase de practicas
 
     public void librosPrestados() {//Libros prestados
         if (cantidadPrestamo == 0) {
-            System.out.println("Actualmente no hay libros prestados");
+            System.out.println("Actualmente no hay libros prestados.");
         }
         if (out == true) {
             buscarLibro();
