@@ -35,7 +35,7 @@ public class Practica1 {
                     System.out.println("Ingrese un codigo nuevo del libro del 0 al 9");
                     libroActual = lector.nextInt();
                     if (libroActual < 0 || libroActual > 9) {//rango
-                        System.out.println("estamo mal no hay mas espacio, no hay plata para base de datos.");
+                        System.out.println("Estamo mal no hay mas espacio, no hay plata para base de datos.");
                         break;
                     }
                     for (int i = 0; i < 9; i++) {
