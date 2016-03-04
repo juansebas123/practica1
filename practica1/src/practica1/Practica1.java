@@ -50,7 +50,7 @@ public class Practica1 {
                         }
                     }
                     break;
-                    
+
                 case 2://Actualizar Libro
                     System.out.println("Ingrese el nombre");
                     String name = lector.next();
@@ -68,7 +68,7 @@ public class Practica1 {
                         System.out.println("No se ha encontrado el libro en la base de datos.");
                     }
                     break;
-                    
+
                 case 3://Eliminar Libro
                     System.out.println("Ingrese el nombre del libro a eliminar");
                     name = lector.next();
@@ -86,7 +86,7 @@ public class Practica1 {
                         System.out.println("No se ha encontrado el libro en la base de datos.");
                     }
                     break;
-                    
+
                 case 4://Buscar Libro
                     System.out.println("Ingrese el nombre del libro que desea buscar: ");
                     name = lector.next();
@@ -103,7 +103,7 @@ public class Practica1 {
                         System.out.println("No se ha encontrado el libro en la base de datos.");
                     }
                     break;
-                    
+
                 case 5://Prestar Libro
                     System.out.println("Ingrese el nombre del libro que desea prestar");
                     name = lector.next();
@@ -120,7 +120,7 @@ public class Practica1 {
                         System.out.println("No se ha encontrado el libro en la base de datos.");
                     }
                     break;
-                    
+
                 case 6://Devolver Libro
                     System.out.println("Ingrese el nombre del libro que desea devolver");
                     name = lector.next();
@@ -137,7 +137,7 @@ public class Practica1 {
                         System.out.println("No se ha encontrado el libro en la base de datos.");
                     }
                     break;
-                    
+
                 case 7://Libros prestados
                     for (int i = 0; i < 10; i++) {
                         if (vector[i] == 1) {
@@ -151,4 +151,3 @@ public class Practica1 {
     }
 
 }
-
