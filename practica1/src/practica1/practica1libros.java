@@ -134,9 +134,9 @@ public class practica1libros { //aqui hay una subclase que direcciona apractica1
                 case 3:
                     System.out.println("Actualmente el año de publicacion es: " + anodepublicacion);
                     System.out.println("Ingrese el nuevo año: ");
-                    anodepublicacion = lector.next();
-
+                    anodepublicacion = lector.next();                  
                     break;
+                    
                 case 4:
                     System.out.println("Actualmente el numero de libros disponibles es: " + cantidad);
                     System.out.println("Ingrese la nueva cantidad: ");
