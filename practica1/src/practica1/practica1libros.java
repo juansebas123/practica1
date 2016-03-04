@@ -99,7 +99,8 @@ public class practica1libros { //aqui hay una subclase que direcciona apractica1
                 case 5:
                     area = "Programacion";
                     break;
-            }break;
+            }
+            break;
         } while (op != 6);
         vf = true;
         System.out.println("Ha sido almacenada el libro con el codigo: " + codigo);
@@ -168,7 +169,8 @@ public class practica1libros { //aqui hay una subclase que direcciona apractica1
                             case 5:
                                 area = "Programacion";
                                 break;
-                        }break;
+                        }
+                        break;
                     } while (op != 6);
             }
         } while (op != 6);
@@ -186,7 +188,7 @@ public class practica1libros { //aqui hay una subclase que direcciona apractica1
             cantidad = 0;
             vf = false;
             System.out.println("Eliminado libro de la base de datos");
-        } 
+        }
     }
 
     public void buscarLibro() {//Buscar Libro
